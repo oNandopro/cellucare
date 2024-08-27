@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/fonts/Quicksand/Quicksand-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'poppins';
+    src: url(/fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    word-wrap: break-word; 
+    box-sizing: border-box;
+    font-family: 'poppins', 'Quicksland', sans-serif;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+/* Header */
+header {
+    display: flex;
+    background-color: #1F5046 ;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1162px; 
+    margin: 0 auto; 
+}
+.name_product h1 {
+    justify-content: start;
+    align-items: center;
+    font-size: 3.5em; 
+    transition: transform .3s ease;
+    color: white;
+}
+.name_product h1:hover {
+    transform: scale(1.1);
+}
+.button_one {
+    justify-content: end;
+}
+.button_one button {
+    padding: 15px 35px;
+    background-color: #FDCF03;
+    font-weight: 700;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em; 
+    transition: transform .2s ease;
+}
+.button_one button:hover {
+    color: black;
+    transform: scale(1.1);
+}
+/* Main */
+main {
+    display: flex;
+    flex: 1;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    background-image: linear-gradient(#266155 , #35927F);
+}
+.container_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1162px; 
+    margin: 0 auto; 
+}
+.sec_one {
+    display: flex;
+    width: 100%;
+}
+.imagem_cel {
+    display: none;
+}
+.button_two button{
+    padding: 25px 85px;
+    background-color: #FDCF03;
+    font-weight: 500;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.599);
+    cursor: pointer;
+    font-size: 2em; 
+    margin-top: 30px;
+    transition: transform .2s ease;
+}
+.button_two button:hover {
+    color: black;
+    transform: scale(1.1);
+}
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 150px;
+    margin-left: 30px;
+    margin-right: -50px;
+    max-width: 100%;
+}
+.sec_two {
+    display: flex;
+    height: 150px;
+    background-color: rgb(76, 136, 226);
+    width: 100%;
+}
+.sec_three {
+    display: flex;
+    height: 50px;
+    background-color: rgb(5, 73, 173);
+    width: 100%;
+}
+.sec_four {
+    display: flex;
+    height: 50px;
+    background-color: rgb(137, 181, 247);
+    width: 100%;
+}
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.555); 
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.container_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.div_footer_one {
+    display: flex;
+}
+h4 {
+    padding: 10px;
+}
+.div_footer_two {
+    display: flex;
+}
+footer div p a {
+    color: white;
+}
+footer h4 a {
+    color: white;
+}
+/* Media Query para telas menores (até 768px) */
+@media (max-width: 768px) {
+    .container_header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name_product h1 {
+        margin-bottom: 20px;
+        font-size: 4em;
+    }
+    .button_one button {
+        padding: 10px 15px;
+    }
+    #a_cel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_footer {
+        font-size: 0.7em;
+        height: 80px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1179px) {
+    /* HEADER */
+    .container_header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name_product h1 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 5em;
+    }
+    .button_one button {
+        padding: 10px 15px;
+    }
+}
