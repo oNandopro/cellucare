@@ -121,6 +121,9 @@ footer div p a {
     h1 {
         font-size: 1em;
     }
+    .image {
+        display: none;
+    }
     #container_main {
         display: flex;
         width: 90%;
