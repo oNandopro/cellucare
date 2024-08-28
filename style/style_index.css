@@ -150,6 +150,10 @@ main {
     height: 150px;
     width: 100%;
 }
+.imagem_certifications {
+    display: flex;
+    justify-content: center;
+}
 .sec_balloon {
     display: flex;
     justify-content: center;
@@ -251,21 +255,77 @@ footer h4 a {
 }
 /* Media Query para telas menores (até 768px) */
 @media (max-width: 768px) {
-    .container_header {
+    header {
+        display: none;
+    }
+    .imagem {
+        display: none;
+    }
+    .sec_one {
+        display: flex;
         flex-direction: column;
+    }
+    .imagem_cel {
+        display: flex;
+        justify-content: center;
         align-items: center;
-    }
-    .name_product h1 {
-        margin-bottom: 20px;
-        font-size: 4em;
-    }
-    .button_one button {
-        padding: 10px 15px;
+        width: 80%;
     }
     #a_cel {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #img_cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+    }
+    #a_cel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .frase {
+        margin-top: 30px;
+    }
+    .p_name p {
+        margin-top: 15px;
+        font-size: 0.8em;
+    }
+    .button_two button {
+        padding: 20px 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .img_sec_two {
+        width: 80%;
+        height: auto;
+    }
+    h2 {
+        font-size: 0.8em;
+    }
+    .sec_balloon {
+        margin-top: 10px;
+    }
+    .div_balloon {
+        font-size: 1.5em;
+    }
+    .sec_theer {
+        margin-top: 10px;
+    }
+    h3 {
+        font-size: 0.8em;
+        margin-bottom: 20px;
+    }
+    .button_buy {
+        display: flex;
+        justify-content: center;
+    }
+    .button_buy button {
+        padding: 25px 85px;
+        font-size: 1.8em; 
     }
     .container_footer {
         font-size: 0.7em;
@@ -285,5 +345,8 @@ footer h4 a {
     }
     .button_one button {
         padding: 10px 15px;
+    }
+    #img_one {
+        width: 80%;
     }
 }

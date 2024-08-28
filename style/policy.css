@@ -121,9 +121,6 @@ footer div p a {
     h1 {
         font-size: 1em;
     }
-    .image {
-        display: none;
-    }
     #container_main {
         display: flex;
         width: 90%;
@@ -145,7 +142,6 @@ footer div p a {
         font-size: 0.7em;
         height: 50px;
     }
-
 }
 @media (min-width: 769px) and (max-width: 1179px) {
     #container_main {
