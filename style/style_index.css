@@ -221,6 +221,18 @@ h3 {
     width: 100px;
     height: 100px;
 }
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img_stars {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
 /* Footer */
 footer {
     display: flex;
@@ -264,6 +276,7 @@ footer h4 a {
     .sec_one {
         display: flex;
         flex-direction: column;
+        margin-top: 30px;
     }
     .imagem_cel {
         display: flex;
@@ -327,15 +340,24 @@ footer h4 a {
         padding: 25px 80px;
         font-size: 1.8em; 
     }
+    .stars {
+        font-size: .7em;
+        margin-bottom: 0px;
+    }
+    .img_stars {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 70px;
+    }
     .container_footer {
         font-size: 0.7em;
-        height: 80px;
+        height: 100px;
     }
 }
 @media (min-width: 769px) and (max-width: 1179px) {
     /* HEADER */
     header {
-        height: 150px;
+        display: none;
     }
     .container_header {
         flex-direction: column;
@@ -347,9 +369,6 @@ footer h4 a {
         margin-top: 40px;
         margin-bottom: 20px;
         font-size: 5em;
-    }
-    .button_one button {
-        display: none;
     }
     #img_one {
         width: 80%;
