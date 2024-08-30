@@ -351,7 +351,13 @@ footer h4 a {
     }
     .container_footer {
         font-size: 0.7em;
-        height: 100px;
+        height: 150px;
+    }
+    .div_footer_one {
+        margin-top: 20px;
+    }
+    h4 {
+        padding: 5px;
     }
 }
 @media (min-width: 769px) and (max-width: 1179px) {
