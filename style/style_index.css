@@ -412,12 +412,12 @@ footer h4 a {
         font-weight: 700;
         color: #193f37;
         border: none;
-        border-radius: 6px;
+        border-radius: 30px;
         cursor: pointer;
         font-size: 1.2em; 
         transition: transform .2s ease;
     }
-    .button_Find_out button:hover {
+    .button_find_out button:hover {
         color: #266155;
         transform: scale(1.03);
     }
