@@ -380,6 +380,7 @@ footer h4 a {
     }
     /* SECTION THREE */
     .sec_three {
+        display: none;
         margin-top: 10px;
         text-decoration: underline;
     }
@@ -414,7 +415,7 @@ footer h4 a {
     .button_find_out button {
         margin-top: 50px;
         margin-bottom: 50px;
-        padding: 25px 15px;
+        padding: 25px 85px;
         width: 80%;
         background-color: #FDCF03;
         font-weight: 700;
@@ -422,7 +423,7 @@ footer h4 a {
         border: none;
         border-radius: 30px;
         cursor: pointer;
-        font-size: 1.2em; 
+        font-size: 1.5em; 
         transition: transform .2s ease;
     }
     .button_find_out button:hover {
